@@ -1,9 +1,0 @@
-1630834570774	geckodriver	INFO	Listening on 127.0.0.1:38181
-1630834571782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUvP2hQ"
-1630834572446	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUvP2hQ/search.json.mozlz4", (void 0)))
-1630834574188	Marionette	INFO	Listening on port 36633
-1630834574219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1630834604986	Marionette	INFO	Stopped listening on port 36633
-JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
-[Parent 109014, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-RJh93w/firefox-91.0.2+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
